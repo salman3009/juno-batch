@@ -1,0 +1,30 @@
+<script>
+    //global scope
+    const fullName = "akash";
+    // fullName = 'suresh';
+    console.log(fullName);
+
+    function details(){
+        //function scope
+        const age = 67;
+        console.log(fullName);
+        console.log(age);
+    }
+   // console.log(age);
+    details();
+
+    //block scope
+    {
+        const address = "delhi";
+        console.log(address);
+    }
+    // console.log(address);
+
+    // for(const i=0;i<10;i++){
+    //     console.log(i);
+    // }
+    // console.log(i);
+
+    const email = "akash@gmail.coom";
+    // const email = "suresh@gmail.com";
+</script>

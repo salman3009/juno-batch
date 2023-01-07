@@ -1,0 +1,5 @@
+javascript is a prototype based language:
+prototype - one object is connected to another object.
+ES6 features:
+ECMA - company name:
+======================= 

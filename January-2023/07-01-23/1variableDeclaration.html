@@ -1,0 +1,35 @@
+<script>
+    //synchronous code
+    var fullName = "akash";
+    //global scope
+    console.log(fullName);
+
+    //function scope
+    function details(){       
+         var age = 56;
+         console.log(fullName);
+         console.log(age);
+    }
+    details();
+
+    //block scope
+    {
+      var address = "delhi";
+      console.log(address);
+    }
+    console.log(address);
+
+    for(var i=0;i<10;i++){
+        console.log(i);
+    }
+    console.log(i);
+    //0
+    //0 1
+    //0 1 2
+    //0 1 2 3
+    //0 1 2 3 4
+
+    var email = "akash@gmail.com";
+    var email = "suresh@gmail.com";
+    console.log(email);
+</script>

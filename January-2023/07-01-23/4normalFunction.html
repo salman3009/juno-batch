@@ -1,0 +1,45 @@
+<script>
+    function description(){
+        return "akash";
+    }
+    console.log(description());
+    let result = description();
+    console.log(result);
+    
+    function addition(a=0,b=0){
+        return a+b;
+    }
+    addition(4,5);
+    console.log(addition());
+
+    function display(){
+        console.log("without return");
+    }
+    display();
+  
+    let employee={
+        fullName:"akash",
+        age:55,
+        displayDetails:function(){
+            console.log(this.fullName);
+            let that = this;
+            function employeeResult(){
+                console.log(that.fullName);
+            }
+            employeeResult();
+        }
+    }
+   employee.displayDetails();
+
+
+   let details={
+    fullName:"suresh",
+    caculateDetails(){
+
+    },
+    caculateResult:function(){
+        
+    }
+   }
+
+</script>

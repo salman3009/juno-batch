@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<div style="display: block">
+
+<div style="margin: 40px;"><center><label>Result:</label><h4 id="result"></h4></center></div>
+
+<div style="margin: 40px;"><center><input type="number" id="inputs"></center></div>
+
+<div style="margin: 40px;"><center><button style="height: 30px; width: 100px; text-align: center;" onclick="add()">ADD</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="height: 30px; width: 100px; text-align: center;" onclick="rem()">Rempve</button></center></div>
+
+</div>
+
+<script>
+
+let num=Number(document.getElementById("result").innerText);
+
+
+
+function add(){
+
+console.log(Number(document.getElementById("result").innerText));
+
+console.log(Number(document.getElementById("inputs").value));
+let sum=Number(document.getElementById("inputs").value);
+num+=sum;
+
+// num.innerHTML=num;
+
+document.getElementById("result").innerHTML=num;
+
+}
+
+function rem(){
+
+num-=sum;
+
+num.innerHTML=num;
+
+}
+
+</script>
+
+</body>
+
