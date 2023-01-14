@@ -1,0 +1,26 @@
+How to create new react application?
+npx create-react-app package-name 
+npx ---> it will install the latest version everytime
+create-react-app --> library 
+package-name --> project name
+================================
+Folder structure:
+1.readme
+2.gitignore
+3.package.json
+4.package.lock.json 
+5.public 
+6.index.html 
+7.src colder 
+8.index.js 
+9.app.js 
+What is DOM 
+What is import and export statement 
+What is custom component in reactjs 
+what is functional component and how to design the functional component 
+What is JIT compiler 
+what is packages and library 
+what is npm and npx 
+what is caret symbol in package.json 
+what is scripts and how to run the application.
+==============================================
