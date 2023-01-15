@@ -1,0 +1,37 @@
+.border-box{
+    border:3px solid black;
+    margin:auto;
+    width: 500px;
+    height: 85px;
+    padding:50px;
+}
+
+.form-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.form-input{
+    margin:auto;
+    width: 200px;
+    height: 10px;
+}
+
+input{
+    width: 200px;
+    border-radius: 0;
+    height: 20px;
+}
+
+.form-button{
+    margin:auto;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+}
+button{
+    padding:7px;
+    margin:20px 0px 0px 10px;
+    width: 65px;
+}
