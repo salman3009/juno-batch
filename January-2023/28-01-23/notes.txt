@@ -1,0 +1,78 @@
+MERN:Full stack application
+Angular and spring boot and sql- full stack application 
+Angular/react and .Net and sql - full stack application
+Angular/react and python and sql - full stack application
+=========================================================
+SQL:
+1.oracle
+2.postgress
+3.sqllite
+4.sqlserver
+NoSQL
+1.mongodb
+2.dynamo
+======================================
+Html-->css---bootstrap--->javascript-->-->Reactjs 
+Javascript --> mongodb 
+javascript --->nodejs-->express
+========================================
+MERN
+M - Mongodb --> database 
+SQL - structured query language
+[
+{
+    "fullName":"akash",
+    "age":33,
+    "address":""
+},
+{
+    "fullName":"suresh",
+    "age":33,
+    "address":"delhi"
+}
+]
+NoSQL - No structure query language
+[
+{
+    "fullName":"akash",
+    "age":33,
+},
+{
+    "fullName":"suresh",
+    "age":33,
+    "address":"delhi"
+}
+]
+ORM/ODM - Object Relational mapping/Object data modelling
+ODM - Mongoose/Mongodb
+=============================================
+Frontend ----->Backend-->Mongoose-->Mongodb
+=========================================
+Nodejs 
+1.Run time environment for javascript 
+2.Nodejs you can do following things
+   (i).file system
+   (ii).database system
+   (iii).operating system 
+   (iv).networking system 
+3.upper layer it is written in javascript and low level is written in C++.
+=======================================
+html-->css-->bootstrap-->javascript-->Reactjs--->Nodejs--->expressjs--->mongoose-->mongodb
+layout-->presentation
+HTML- Structure
+
+CSS- Design
+
+JS- Functionality
+
+React- Library TO make working with JS easy
+
+NodeJS- Javascript v8 Engine stripped out of browser to run in local environment using C++.
+
+Express - Backend framework for Node.js
+
+Classified as a NoSQL database program,
+
+Mongoose - Mongoose is a Object Data Modeling (ODM) library for MongoDB distributed as an npm package.
+
+MongoDB uses JSON-like documents with optional schemas.
