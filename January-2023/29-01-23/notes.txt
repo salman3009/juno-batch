@@ -1,0 +1,19 @@
+Backend:
+1.first create one folder 
+2.create package.json inside this folder using npm init 
+3.npm install express 
+4.create one file index.js inside the folder
+5.go to package.json 
+example:
+ "scripts": {
+   "start":"node index"
+}
+6.write get method inside the index.js 
+const express = require('express');
+const app = express();
+
+app.get('/newton',(req,res)=>{
+      res.send("<html><head></head><body><p>hello world</p></body></html>")
+});
+
+app.listen(8080);
